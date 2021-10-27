@@ -1,0 +1,20 @@
+.NavLinksContainer {
+  list-style-type: none;
+}
+
+.MobileNavigation {
+  display: none;
+}
+
+@media screen and (max-width: 765px) {
+  .MobileNavigation {
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+  }
+  .MobileNavigation .Hamburger {
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
