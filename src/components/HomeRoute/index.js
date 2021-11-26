@@ -9,6 +9,7 @@ class HomeRoute extends Component {
       <>
         <Navbar />
         <h1>home</h1>
+        <h1>hi</h1>
       </>
     )
   }
